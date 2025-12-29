@@ -1,0 +1,122 @@
+span{
+    font-size: 55px;
+    margin-right: 400px;
+    background-color: red;
+}
+
+body{
+   background-color: blue;
+
+}
+.start{
+    position: relative;
+font-size: 55px;
+margin-left: 1233px;
+}
+
+
+ .container{
+  height: 50vh; /*ارتفاع الحاوية*/
+  display: flex;
+  justify-content: center; /*تحديد الموقع على الشاشة*/
+  align-items: center; /*تحديد الموقع على الشاشة*/
+  gap: 72px; /*تحديد المسافة بين شكلين بمسافة ما*/ 
+}
+.box{
+    padding: 19px;
+    color: aliceblue;
+    background-color: #6F00FF;
+    border: grey 2px solid;
+    width: 243px;
+    height: 211px;
+    border-radius: 25px;     
+    font-size: 18px; 
+    position: relative;
+
+}
+
+.box1{
+    padding: 19px;
+    color: aliceblue;
+    background-color: #6F00FF;
+    border: grey 2px solid;
+    width: 543px;
+    height: 711px;
+    border-radius: 25px;     
+    font-size: 18px; 
+    position: relative;
+
+}
+
+
+.box:hover  {
+        border: rgb(4, 255, 0) 4px solid ; /* تغيير اللون عند وضع الفأرة عليه */
+        transform: scale(1.1); /*  الحجم الشكل عند وضع الفأرة عليه */
+      /*  transform: rotate(-90deg);  التدوير عند وضع الفأرة عليه */
+      /*   transform: translateX(-111px) translateY(111px); التحريك عند وضع الفأرة عليه على المحور x:العرض / y: الطول */
+        transition: 1.0s;  /* الوقت للوصول لذلك الحجم */
+}
+
+/* الحاوية الرئيسية */
+.login {
+  display: flex;               /* لجعل الصناديق في صف */
+  justify-content: center;     /* محاذاة وسط الصفحة أفقياً */
+  align-items: flex-start;     /* محاذاة الصناديق من الأعلى عمودياً */
+  gap: 50px;                   /* المسافة بين الصناديق */
+  padding: 40px;
+  background-color: purple;
+  border: 9px solid green;
+  border-radius: 50px;
+  max-width: 1200px;           /* الحد الأقصى للحاوية */
+  margin: 50px auto;           /* توسيط الحاوية في الصفحة */
+}
+
+/* الصناديق الداخلية */
+.box {
+  background-color: #6F00FF;
+  border: 2px solid grey;
+  border-radius: 25px;
+  padding: 20px;
+  width: 500px;
+  box-sizing: border-box;      /* لضمان عدم تجاوز padding العرض */
+  color: aliceblue;
+  font-size: 18px;
+}
+
+/* الحقول داخل النموذج */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* تأثير hover للحقل */
+input:hover, textarea:hover {
+  border-color: #007FFF;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+/* الأزرار */
+button {
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+/* تأثير hover للأزرار */
+button:hover {
+  border-color: #00da69;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
