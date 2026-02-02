@@ -10,10 +10,11 @@ body{
 }
 .start{
     position: relative;
+     min-height: 1.2em;
+    font-size: 32px;
 font-size: 55px;
 margin-left: 1233px;
 }
-
 
  .container{
   height: 50vh; /*ارتفاع الحاوية*/
@@ -120,3 +121,4 @@ button:hover {
   transform: scale(1.05);
   transition: 0.3s;
 }
+
