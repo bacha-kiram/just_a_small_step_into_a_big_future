@@ -2,6 +2,9 @@ span{
     font-size: 55px;
     margin-right: 400px;
     background-color: red;
+    position: sticky;
+      left: 50%;
+  top: 0px;
 }
 
 body{
@@ -15,6 +18,7 @@ body{
 font-size: 55px;
 margin-left: 1233px;
 }
+
 
  .container{
   height: 50vh; /*ارتفاع الحاوية*/
@@ -121,4 +125,3 @@ button:hover {
   transform: scale(1.05);
   transition: 0.3s;
 }
-
